@@ -1,0 +1,17 @@
+parameter,description,unit,
+p_inf,Probability of infection,dimensionless
+p_hcw,Probability of infection for Health Care Workers,dimensionless
+c_hcw,Mean number of Health care Worker to patient contacts per day,dimensionless
+d,Proportion of population observing social distancing,dimensionless
+q,Proportion of normal contact made by people sef-isolating,dimensionless
+p_s,Age-dependent probability of developing symptoms,dimensionless
+rrd,Risk of death if not hospitalised,dimensionless
+lambda,Rate of primary infection prior to lockdown,dimensionless
+T_lat,Mean latent period,days
+juvp_s,Probability of juvenile developing symptoms,dimensionless
+T_inf,Mean asymptomatic period,days
+T_rec,Mean time to recover if symptomatic,days
+T_sym,Mean symptomatic period prior to hospitalisation,days
+T_hos,Mean hospitalisation stay,days
+K,Hospital bed capacity,people
+inf_asym,Reduction factor of infectiousnes for asymp. Infectious people,dimensionless
