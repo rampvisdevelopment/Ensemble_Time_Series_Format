@@ -1,120 +1,120 @@
-,output,description,unit
-0,day,time_unit,day
-1,inc_case_mean,Mean of incidence of cases occurring on that day.,cases
-2,inc_case_var,Variance of incidence of cases occurring on that day.,cases squared
-3,inc_death_mean,Mean of incidence of non-hospital deaths occurring on that day,deaths
-4,inc_death_var,Variance of incidence of non-hospital deaths occurring on that day,deaths squared
-5,inc_death_hospital_mean,Mean of incidence of hospital deaths on that day.,deaths
-6,inc_death_hospital_var,Variance of incidence of hospital deaths on that day.,deaths squared
-7,age_0_S_mean,"Mean number of susceptible individuals (not infected), in age group 0 (under 20).",individuals
-8,age_0_S_var,"Variance of number of susceptible individuals (not infected), in age group 0 (under 20).",individuals squared
-9,age_0_E_mean,"Mean of number of infected individuals but not yet infectious (exposed), in age group 0 (under 20).",individuals
-10,age_0_E_var,"Variance of number of infected individuals but not yet infectious (exposed), in age group 0 (under 20).",individuals squared
-11,age_0_H_mean,"Mean of number of infected individuals that are hospitalised, in age group 0 (under 20).",individuals
-12,age_0_H_var,"Variance of number of infected individuals that are hospitalised, in age group 0 (under 20).",individuals squared
-13,age_0_R_mean,"Mean of number of infected individuals that are recovered from infection, in age group 0 (under 20).",individuals
-14,age_0_R_var,"Variance of number of infected individuals that are recovered from infection, in age group 0 (under 20).",individuals squared
-15,age_0_D_mean,"Mean of number of dead individuals due to disease, in age group 0 (under 20).",individuals
-16,age_0_D_var,"Variance of number of dead individuals due to disease, in age group 0 (under 20).",individuals squared
-17,age_0_I_mean,"Mean of number of infected and infectious asymptomatic individuals, in age group 0 (under 20).",individuals
-18,age_0_I_var,"Variance of number of infected and infectious asymptomatic individuals, in age group 0 (under 20).",individuals squared
-19,age_0_IS_mean,"Mean of number of infected and infectious symptomatic individuals, in age group 0 (under 20).",individuals
-20,age_0_IS_var,"Variance of number of infected and infectious symptomatic individuals, in age group 0 (under 20).",individuals squared
-21,age_1_S_mean,"Mean number of susceptible individuals (not infected), in age group 1 (20-29).",individuals
-22,age_1_S_var,"Variance of number of susceptible individuals (not infected), in age group 1 (20-29).",individuals squared
-23,age_1_E_mean,"Mean of number of infected individuals but not yet infectious (exposed), in age group 1 (20-29).",individuals
-24,age_1_E_var,"Variance of number of infected individuals but not yet infectious (exposed), in age group 1 (20-29).",individuals squared
-25,age_1_H_mean,"Mean of number of infected individuals that are hospitalised, in age group 1 (20-29).",individuals
-26,age_1_H_var,"Variance of number of infected individuals that are hospitalised, in age group 1 (20-29).",individuals squared
-27,age_1_R_mean,"Mean of number of infected individuals that are recovered from infection, in age group 1 (20-29).",individuals
-28,age_1_R_var,"Variance of number of infected individuals that are recovered from infection, in age group 1 (20-29).",individuals squared
-29,age_1_D_mean,"Mean of number of dead individuals due to disease, in age group 1 (20-29).",individuals
-30,age_1_D_var,"Variance of number of dead individuals due to disease, in age group 1 (20-29).",individuals squared
-31,age_1_I_mean,"Mean of number of infected and infectious asymptomatic individuals, in age group 1 (20-29).",individuals
-32,age_1_I_var,"Variance of number of infected and infectious asymptomatic individuals, in age group 1 (20-29).",individuals squared
-33,age_1_IS_mean,"Mean of number of infected and infectious symptomatic individuals, in age group 1 (20-29).",individuals
-34,age_1_IS_var,"Variance of number of infected and infectious symptomatic individuals, in age group 1 (20-29).",individuals squared
-35,age_2_S_mean,"Mean number of susceptible individuals (not infected), in age group 2 (30-39).",individuals
-36,age_2_S_var,"Variance of number of susceptible individuals (not infected), in age group 2 (30-39).",individuals squared
-37,age_2_E_mean,"Mean of number of infected individuals but not yet infectious (exposed), in age group 2 (30-39).",individuals
-38,age_2_E_var,"Variance of number of infected individuals but not yet infectious (exposed), in age group 2 (30-39).",individuals squared
-39,age_2_H_mean,"Mean of number of infected individuals that are hospitalised, in age group 2 (30-39).",individuals
-40,age_2_H_var,"Variance of number of infected individuals that are hospitalised, in age group 2 (30-39).",individuals squared
-41,age_2_R_mean,"Mean of number of infected individuals that are recovered from infection, in age group 2 (30-39).",individuals
-42,age_2_R_var,"Variance of number of infected individuals that are recovered from infection, in age group 2 (30-39).",individuals squared
-43,age_2_D_mean,"Mean of number of dead individuals due to disease, in age group 2 (30-39).",individuals
-44,age_2_D_var,"Variance of number of dead individuals due to disease, in age group 2 (30-39).",individuals squared
-45,age_2_I_mean,"Mean of number of infected and infectious asymptomatic individuals, in age group 2 (30-39).",individuals
-46,age_2_I_var,"Variance of number of infected and infectious asymptomatic individuals, in age group 2 (30-39).",individuals squared
-47,age_2_IS_mean,"Mean of number of infected and infectious symptomatic individuals, in age group 2 (30-39).",individuals
-48,age_2_IS_var,"Variance of number of infected and infectious symptomatic individuals, in age group 2 (30-39).",individuals squared
-49,age_3_S_mean,"Mean number of susceptible individuals (not infected), in age group 3 (40-49).",individuals
-50,age_3_S_var,"Variance of number of susceptible individuals (not infected), in age group 3 (40-49).",individuals squared
-51,age_3_E_mean,"Mean of number of infected individuals but not yet infectious (exposed), in age group 3 (40-49).",individuals
-52,age_3_E_var,"Variance of number of infected individuals but not yet infectious (exposed), in age group 3 (40-49).",individuals squared
-53,age_3_H_mean,"Mean of number of infected individuals that are hospitalised, in age group 3 (40-49).",individuals
-54,age_3_H_var,"Variance of number of infected individuals that are hospitalised, in age group 3 (40-49).",individuals squared
-55,age_3_R_mean,"Mean of number of infected individuals that are recovered from infection, in age group 3 (40-49).",individuals
-56,age_3_R_var,"Variance of number of infected individuals that are recovered from infection, in age group 3 (40-49).",individuals squared
-57,age_3_D_mean,"Mean of number of dead individuals due to disease, in age group 3 (40-49).",individuals
-58,age_3_D_var,"Variance of number of dead individuals due to disease, in age group 3 (40-49).",individuals squared
-59,age_3_I_mean,"Mean of number of infected and infectious asymptomatic individuals, in age group 3 (40-49).",individuals
-60,age_3_I_var,"Variance of number of infected and infectious asymptomatic individuals, in age group 3 (40-49).",individuals squared
-61,age_3_IS_mean,"Mean of number of infected and infectious symptomatic individuals, in age group 3 (40-49).",individuals
-62,age_3_IS_var,"Variance of number of infected and infectious symptomatic individuals, in age group 3 (40-49).",individuals squared
-63,age_4_S_mean,"Mean number of susceptible individuals (not infected), in age group 4 (50-59).",individuals
-64,age_4_S_var,"Variance of number of susceptible individuals (not infected), in age group 4 (50-59).",individuals squared
-65,age_4_E_mean,"Mean of number of infected individuals but not yet infectious (exposed), in age group 4 (50-59).",individuals
-66,age_4_E_var,"Variance of number of infected individuals but not yet infectious (exposed), in age group 4 (50-59).",individuals squared
-67,age_4_H_mean,"Mean of number of infected individuals that are hospitalised, in age group 4 (50-59).",individuals
-68,age_4_H_var,"Variance of number of infected individuals that are hospitalised, in age group 4 (50-59).",individuals squared
-69,age_4_R_mean,"Mean of number of infected individuals that are recovered from infection, in age group 4 (50-59).",individuals
-70,age_4_R_var,"Variance of number of infected individuals that are recovered from infection, in age group 4 (50-59).",individuals squared
-71,age_4_D_mean,"Mean of number of dead individuals due to disease, in age group 4 (50-59).",individuals
-72,age_4_D_var,"Variance of number of dead individuals due to disease, in age group 4 (50-59).",individuals squared
-73,age_4_I_mean,"Mean of number of infected and infectious asymptomatic individuals, in age group 4 (50-59).",individuals
-74,age_4_I_var,"Variance of number of infected and infectious asymptomatic individuals, in age group 4 (50-59).",individuals squared
-75,age_4_IS_mean,"Mean of number of infected and infectious symptomatic individuals, in age group 4 (50-59).",individuals
-76,age_4_IS_var,"Variance of number of infected and infectious symptomatic individuals, in age group 4 (50-59).",individuals squared
-77,age_5_S_mean,"Mean number of susceptible individuals (not infected), in age group 5 (60-69).",individuals
-78,age_5_S_var,"Variance of number of susceptible individuals (not infected), in age group 5 (60-69).",individuals squared
-79,age_5_E_mean,"Mean of number of infected individuals but not yet infectious (exposed), in age group 5 (60-69).",individuals
-80,age_5_E_var,"Variance of number of infected individuals but not yet infectious (exposed), in age group 5 (60-69).",individuals squared
-81,age_5_H_mean,"Mean of number of infected individuals that are hospitalised, in age group 5 (60-69).",individuals
-82,age_5_H_var,"Variance of number of infected individuals that are hospitalised, in age group 5 (60-69).",individuals squared
-83,age_5_R_mean,"Mean of number of infected individuals that are recovered from infection, in age group 5 (60-69).",individuals
-84,age_5_R_var,"Variance of number of infected individuals that are recovered from infection, in age group 5 (60-69).",individuals squared
-85,age_5_D_mean,"Mean of number of dead individuals due to disease, in age group 5 (60-69).",individuals
-86,age_5_D_var,"Variance of number of dead individuals due to disease, in age group 5 (60-69).",individuals squared
-87,age_5_I_mean,"Mean of number of infected and infectious asymptomatic individuals, in age group 5 (60-69).",individuals
-88,age_5_I_var,"Variance of number of infected and infectious asymptomatic individuals, in age group 5 (60-69).",individuals squared
-89,age_5_IS_mean,"Mean of number of infected and infectious symptomatic individuals, in age group 5 (60-69).",individuals
-90,age_5_IS_var,"Variance of number of infected and infectious symptomatic individuals, in age group 5 (60-69).",individuals squared
-91,age_6_S_mean,"Mean number of susceptible individuals (not infected), in age group 6 (70+).",individuals
-92,age_6_S_var,"Variance of number of susceptible individuals (not infected), in age group 6 (70+).",individuals squared
-93,age_6_E_mean,"Mean of number of infected individuals but not yet infectious (exposed), in age group 6 (70+).",individuals
-94,age_6_E_var,"Variance of number of infected individuals but not yet infectious (exposed), in age group 6 (70+).",individuals squared
-95,age_6_H_mean,"Mean of number of infected individuals that are hospitalised, in age group 6 (70+).",individuals
-96,age_6_H_var,"Variance of number of infected individuals that are hospitalised, in age group 6 (70+).",individuals squared
-97,age_6_R_mean,"Mean of number of infected individuals that are recovered from infection, in age group 6 (70+).",individuals
-98,age_6_R_var,"Variance of number of infected individuals that are recovered from infection, in age group 6 (70+).",individuals squared
-99,age_6_D_mean,"Mean of number of dead individuals due to disease, in age group 6 (70+).",individuals
-100,age_6_D_var,"Variance of number of dead individuals due to disease, in age group 6 (70+).",individuals squared
-101,age_6_I_mean,"Mean of number of infected and infectious asymptomatic individuals, in age group 6 (70+).",individuals
-102,age_6_I_var,"Variance of number of infected and infectious asymptomatic individuals, in age group 6 (70+).",individuals squared
-103,age_6_IS_mean,"Mean of number of infected and infectious symptomatic individuals, in age group 6 (70+).",individuals
-104,age_6_IS_var,"Variance of number of infected and infectious symptomatic individuals, in age group 6 (70+).",individuals squared
-105,age_7_S_mean,"Mean number of susceptible individuals (not infected), in age group 7 (Health Care Workers).",individuals
-106,age_7_S_var,"Variance of number of susceptible individuals (not infected), in age group 7 (Health Care Workers).",individuals squared
-107,age_7_E_mean,"Mean of number of infected individuals but not yet infectious (exposed), in age group 7 (Health Care Workers).",individuals
-108,age_7_E_var,"Variance of number of infected individuals but not yet infectious (exposed), in age group 7 (Health Care Workers).",individuals squared
-109,age_7_H_mean,"Mean of number of infected individuals that are hospitalised, in age group 7 (Health Care Workers).",individuals
-110,age_7_H_var,"Variance of number of infected individuals that are hospitalised, in age group 7 (Health Care Workers).",individuals squared
-111,age_7_R_mean,"Mean of number of infected individuals that are recovered from infection, in age group 7 (Health Care Workers).",individuals
-112,age_7_R_var,Variance of number of infected individuals that are recovered from infectionv,individuals squared
-113,age_7_D_mean,"Mean of number of dead individuals due to disease, in age group 7 (Health Care Workers).",individuals
-114,age_7_D_var,"Variance of number of dead individuals due to disease, in age group 7 (Health Care Workers).",individuals squared
-115,age_7_I_mean,"Mean of number of infected and infectious asymptomatic individuals, in age group 7 (Health Care Workers).",individuals
-116,age_7_I_var,"Variance of number of infected and infectious asymptomatic individuals, in age group 7 (Health Care Workers).",individuals squared
-117,age_7_IS_mean,"Mean of number of infected and infectious symptomatic individuals, in age group 7 (Health Care Workers).",individuals
-118,age_7_IS_var,"Variance of number of infected and infectious symptomatic individuals, in age group 7 (Health Care Workers).",individuals squared
+output,description,unit
+day,time_unit,day
+inc_case_mean,Mean of incidence of cases occurring on that day.,cases
+inc_case_var,Variance of incidence of cases occurring on that day.,cases squared
+inc_death_mean,Mean of incidence of non-hospital deaths occurring on that day,deaths
+inc_death_var,Variance of incidence of non-hospital deaths occurring on that day,deaths squared
+inc_death_hospital_mean,Mean of incidence of hospital deaths on that day.,deaths
+inc_death_hospital_var,Variance of incidence of hospital deaths on that day.,deaths squared
+age_0_S_mean,"Mean number of susceptible individuals (not infected), in age group 0 (under 20).",individuals
+age_0_S_var,"Variance of number of susceptible individuals (not infected), in age group 0 (under 20).",individuals squared
+age_0_E_mean,"Mean of number of infected individuals but not yet infectious (exposed), in age group 0 (under 20).",individuals
+age_0_E_var,"Variance of number of infected individuals but not yet infectious (exposed), in age group 0 (under 20).",individuals squared
+age_0_H_mean,"Mean of number of infected individuals that are hospitalised, in age group 0 (under 20).",individuals
+age_0_H_var,"Variance of number of infected individuals that are hospitalised, in age group 0 (under 20).",individuals squared
+age_0_R_mean,"Mean of number of infected individuals that are recovered from infection, in age group 0 (under 20).",individuals
+age_0_R_var,"Variance of number of infected individuals that are recovered from infection, in age group 0 (under 20).",individuals squared
+age_0_D_mean,"Mean of number of dead individuals due to disease, in age group 0 (under 20).",individuals
+age_0_D_var,"Variance of number of dead individuals due to disease, in age group 0 (under 20).",individuals squared
+age_0_I_mean,"Mean of number of infected and infectious asymptomatic individuals, in age group 0 (under 20).",individuals
+age_0_I_var,"Variance of number of infected and infectious asymptomatic individuals, in age group 0 (under 20).",individuals squared
+age_0_IS_mean,"Mean of number of infected and infectious symptomatic individuals, in age group 0 (under 20).",individuals
+age_0_IS_var,"Variance of number of infected and infectious symptomatic individuals, in age group 0 (under 20).",individuals squared
+age_1_S_mean,"Mean number of susceptible individuals (not infected), in age group 1 (20-29).",individuals
+age_1_S_var,"Variance of number of susceptible individuals (not infected), in age group 1 (20-29).",individuals squared
+age_1_E_mean,"Mean of number of infected individuals but not yet infectious (exposed), in age group 1 (20-29).",individuals
+age_1_E_var,"Variance of number of infected individuals but not yet infectious (exposed), in age group 1 (20-29).",individuals squared
+age_1_H_mean,"Mean of number of infected individuals that are hospitalised, in age group 1 (20-29).",individuals
+age_1_H_var,"Variance of number of infected individuals that are hospitalised, in age group 1 (20-29).",individuals squared
+age_1_R_mean,"Mean of number of infected individuals that are recovered from infection, in age group 1 (20-29).",individuals
+age_1_R_var,"Variance of number of infected individuals that are recovered from infection, in age group 1 (20-29).",individuals squared
+age_1_D_mean,"Mean of number of dead individuals due to disease, in age group 1 (20-29).",individuals
+age_1_D_var,"Variance of number of dead individuals due to disease, in age group 1 (20-29).",individuals squared
+age_1_I_mean,"Mean of number of infected and infectious asymptomatic individuals, in age group 1 (20-29).",individuals
+age_1_I_var,"Variance of number of infected and infectious asymptomatic individuals, in age group 1 (20-29).",individuals squared
+age_1_IS_mean,"Mean of number of infected and infectious symptomatic individuals, in age group 1 (20-29).",individuals
+age_1_IS_var,"Variance of number of infected and infectious symptomatic individuals, in age group 1 (20-29).",individuals squared
+age_2_S_mean,"Mean number of susceptible individuals (not infected), in age group 2 (30-39).",individuals
+age_2_S_var,"Variance of number of susceptible individuals (not infected), in age group 2 (30-39).",individuals squared
+age_2_E_mean,"Mean of number of infected individuals but not yet infectious (exposed), in age group 2 (30-39).",individuals
+age_2_E_var,"Variance of number of infected individuals but not yet infectious (exposed), in age group 2 (30-39).",individuals squared
+age_2_H_mean,"Mean of number of infected individuals that are hospitalised, in age group 2 (30-39).",individuals
+age_2_H_var,"Variance of number of infected individuals that are hospitalised, in age group 2 (30-39).",individuals squared
+age_2_R_mean,"Mean of number of infected individuals that are recovered from infection, in age group 2 (30-39).",individuals
+age_2_R_var,"Variance of number of infected individuals that are recovered from infection, in age group 2 (30-39).",individuals squared
+age_2_D_mean,"Mean of number of dead individuals due to disease, in age group 2 (30-39).",individuals
+age_2_D_var,"Variance of number of dead individuals due to disease, in age group 2 (30-39).",individuals squared
+age_2_I_mean,"Mean of number of infected and infectious asymptomatic individuals, in age group 2 (30-39).",individuals
+age_2_I_var,"Variance of number of infected and infectious asymptomatic individuals, in age group 2 (30-39).",individuals squared
+age_2_IS_mean,"Mean of number of infected and infectious symptomatic individuals, in age group 2 (30-39).",individuals
+age_2_IS_var,"Variance of number of infected and infectious symptomatic individuals, in age group 2 (30-39).",individuals squared
+age_3_S_mean,"Mean number of susceptible individuals (not infected), in age group 3 (40-49).",individuals
+age_3_S_var,"Variance of number of susceptible individuals (not infected), in age group 3 (40-49).",individuals squared
+age_3_E_mean,"Mean of number of infected individuals but not yet infectious (exposed), in age group 3 (40-49).",individuals
+age_3_E_var,"Variance of number of infected individuals but not yet infectious (exposed), in age group 3 (40-49).",individuals squared
+age_3_H_mean,"Mean of number of infected individuals that are hospitalised, in age group 3 (40-49).",individuals
+age_3_H_var,"Variance of number of infected individuals that are hospitalised, in age group 3 (40-49).",individuals squared
+age_3_R_mean,"Mean of number of infected individuals that are recovered from infection, in age group 3 (40-49).",individuals
+age_3_R_var,"Variance of number of infected individuals that are recovered from infection, in age group 3 (40-49).",individuals squared
+age_3_D_mean,"Mean of number of dead individuals due to disease, in age group 3 (40-49).",individuals
+age_3_D_var,"Variance of number of dead individuals due to disease, in age group 3 (40-49).",individuals squared
+age_3_I_mean,"Mean of number of infected and infectious asymptomatic individuals, in age group 3 (40-49).",individuals
+age_3_I_var,"Variance of number of infected and infectious asymptomatic individuals, in age group 3 (40-49).",individuals squared
+age_3_IS_mean,"Mean of number of infected and infectious symptomatic individuals, in age group 3 (40-49).",individuals
+age_3_IS_var,"Variance of number of infected and infectious symptomatic individuals, in age group 3 (40-49).",individuals squared
+age_4_S_mean,"Mean number of susceptible individuals (not infected), in age group 4 (50-59).",individuals
+age_4_S_var,"Variance of number of susceptible individuals (not infected), in age group 4 (50-59).",individuals squared
+age_4_E_mean,"Mean of number of infected individuals but not yet infectious (exposed), in age group 4 (50-59).",individuals
+age_4_E_var,"Variance of number of infected individuals but not yet infectious (exposed), in age group 4 (50-59).",individuals squared
+age_4_H_mean,"Mean of number of infected individuals that are hospitalised, in age group 4 (50-59).",individuals
+age_4_H_var,"Variance of number of infected individuals that are hospitalised, in age group 4 (50-59).",individuals squared
+age_4_R_mean,"Mean of number of infected individuals that are recovered from infection, in age group 4 (50-59).",individuals
+age_4_R_var,"Variance of number of infected individuals that are recovered from infection, in age group 4 (50-59).",individuals squared
+age_4_D_mean,"Mean of number of dead individuals due to disease, in age group 4 (50-59).",individuals
+age_4_D_var,"Variance of number of dead individuals due to disease, in age group 4 (50-59).",individuals squared
+age_4_I_mean,"Mean of number of infected and infectious asymptomatic individuals, in age group 4 (50-59).",individuals
+age_4_I_var,"Variance of number of infected and infectious asymptomatic individuals, in age group 4 (50-59).",individuals squared
+age_4_IS_mean,"Mean of number of infected and infectious symptomatic individuals, in age group 4 (50-59).",individuals
+age_4_IS_var,"Variance of number of infected and infectious symptomatic individuals, in age group 4 (50-59).",individuals squared
+age_5_S_mean,"Mean number of susceptible individuals (not infected), in age group 5 (60-69).",individuals
+age_5_S_var,"Variance of number of susceptible individuals (not infected), in age group 5 (60-69).",individuals squared
+age_5_E_mean,"Mean of number of infected individuals but not yet infectious (exposed), in age group 5 (60-69).",individuals
+age_5_E_var,"Variance of number of infected individuals but not yet infectious (exposed), in age group 5 (60-69).",individuals squared
+age_5_H_mean,"Mean of number of infected individuals that are hospitalised, in age group 5 (60-69).",individuals
+age_5_H_var,"Variance of number of infected individuals that are hospitalised, in age group 5 (60-69).",individuals squared
+age_5_R_mean,"Mean of number of infected individuals that are recovered from infection, in age group 5 (60-69).",individuals
+age_5_R_var,"Variance of number of infected individuals that are recovered from infection, in age group 5 (60-69).",individuals squared
+age_5_D_mean,"Mean of number of dead individuals due to disease, in age group 5 (60-69).",individuals
+age_5_D_var,"Variance of number of dead individuals due to disease, in age group 5 (60-69).",individuals squared
+age_5_I_mean,"Mean of number of infected and infectious asymptomatic individuals, in age group 5 (60-69).",individuals
+age_5_I_var,"Variance of number of infected and infectious asymptomatic individuals, in age group 5 (60-69).",individuals squared
+age_5_IS_mean,"Mean of number of infected and infectious symptomatic individuals, in age group 5 (60-69).",individuals
+age_5_IS_var,"Variance of number of infected and infectious symptomatic individuals, in age group 5 (60-69).",individuals squared
+age_6_S_mean,"Mean number of susceptible individuals (not infected), in age group 6 (70+).",individuals
+age_6_S_var,"Variance of number of susceptible individuals (not infected), in age group 6 (70+).",individuals squared
+age_6_E_mean,"Mean of number of infected individuals but not yet infectious (exposed), in age group 6 (70+).",individuals
+age_6_E_var,"Variance of number of infected individuals but not yet infectious (exposed), in age group 6 (70+).",individuals squared
+age_6_H_mean,"Mean of number of infected individuals that are hospitalised, in age group 6 (70+).",individuals
+age_6_H_var,"Variance of number of infected individuals that are hospitalised, in age group 6 (70+).",individuals squared
+age_6_R_mean,"Mean of number of infected individuals that are recovered from infection, in age group 6 (70+).",individuals
+age_6_R_var,"Variance of number of infected individuals that are recovered from infection, in age group 6 (70+).",individuals squared
+age_6_D_mean,"Mean of number of dead individuals due to disease, in age group 6 (70+).",individuals
+age_6_D_var,"Variance of number of dead individuals due to disease, in age group 6 (70+).",individuals squared
+age_6_I_mean,"Mean of number of infected and infectious asymptomatic individuals, in age group 6 (70+).",individuals
+age_6_I_var,"Variance of number of infected and infectious asymptomatic individuals, in age group 6 (70+).",individuals squared
+age_6_IS_mean,"Mean of number of infected and infectious symptomatic individuals, in age group 6 (70+).",individuals
+age_6_IS_var,"Variance of number of infected and infectious symptomatic individuals, in age group 6 (70+).",individuals squared
+age_7_S_mean,"Mean number of susceptible individuals (not infected), in age group 7 (Health Care Workers).",individuals
+age_7_S_var,"Variance of number of susceptible individuals (not infected), in age group 7 (Health Care Workers).",individuals squared
+age_7_E_mean,"Mean of number of infected individuals but not yet infectious (exposed), in age group 7 (Health Care Workers).",individuals
+age_7_E_var,"Variance of number of infected individuals but not yet infectious (exposed), in age group 7 (Health Care Workers).",individuals squared
+age_7_H_mean,"Mean of number of infected individuals that are hospitalised, in age group 7 (Health Care Workers).",individuals
+age_7_H_var,"Variance of number of infected individuals that are hospitalised, in age group 7 (Health Care Workers).",individuals squared
+age_7_R_mean,"Mean of number of infected individuals that are recovered from infection, in age group 7 (Health Care Workers).",individuals
+age_7_R_var,Variance of number of infected individuals that are recovered from infectionv,individuals squared
+age_7_D_mean,"Mean of number of dead individuals due to disease, in age group 7 (Health Care Workers).",individuals
+age_7_D_var,"Variance of number of dead individuals due to disease, in age group 7 (Health Care Workers).",individuals squared
+age_7_I_mean,"Mean of number of infected and infectious asymptomatic individuals, in age group 7 (Health Care Workers).",individuals
+age_7_I_var,"Variance of number of infected and infectious asymptomatic individuals, in age group 7 (Health Care Workers).",individuals squared
+age_7_IS_mean,"Mean of number of infected and infectious symptomatic individuals, in age group 7 (Health Care Workers).",individuals
+age_7_IS_var,"Variance of number of infected and infectious symptomatic individuals, in age group 7 (Health Care Workers).",individuals squared
