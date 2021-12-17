@@ -10,7 +10,7 @@ It is intended as a format for datasets of input-output data, of the type used t
 
 The **En**samble **t**ime **s**eries format may be abbreviated as entz (with z to reduce mix up with Tolkien inspired names).
 
-### Ensemble Time Series Format dataset adhere to the following:
+### Ensemble Time Series Format datasets adhere to the following:
 
 1. Each dataset contains the files: 
    
