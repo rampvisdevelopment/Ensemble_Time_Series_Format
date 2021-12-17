@@ -1,14 +1,16 @@
-# Time Series Ensemble Format
+# Ensemble Time Series Format (entz)
 
 ![alt text](images/illustration.png)
 
-## What is the time series ensemble format?
+## What is the Ensemble Time Series Format?
 
 **It is a format for storing a set of parameters and associated output time series.**
 
-It is intended as a format for datasets of input-output data, of the type used to study a model, or process, generating time series outputs.  It is a data structure for, for example, **sensitivity analysis** of epidemiological models.
+It is intended as a format for datasets of input-output data, of the type used to study a model or process generating time series outputs.  It is a data structure allowing for, for example, **sensitivity analysis** of epidemiological models.
 
-### Time series ensemble format datasets adhere to the following:
+The **En**samble **t**ime **s**eries format may be abbreviated as entz (with z to reduce mix up with Tolkien inspired names).
+
+### Ensemble Time Series Format datasets adhere to the following:
 
 1. Each dataset contains the files: 
    
@@ -20,7 +22,7 @@ It is intended as a format for datasets of input-output data, of the type used t
    
    iv. `output_metadata.csv` 
 
-2. `parameters.csv` contains an `index` field. with a unique integer for matching the parameters with their output.
+2. `parameters.csv` contains an `index` field with a unique integers for matching parameters and outputs.
 
 3. `parameters_metadata.csv` contains the fields: `parameter`: name of the parameter matching `parameters.csv`,`description`: plain text description, `unit`.
 
@@ -99,4 +101,4 @@ An larger example with real data can be found [here]( ).
 
 #### Advantages
 
-The format is *Human readable* and *widely compatible* due to containg data in the comma separated values format (CSV). 
+The format is *Human readable* and *widely compatible* due to containg data in the comma separated values format (CSV). It is therefore a possible data format or data structure for sensitivty analysis data.
