@@ -100,10 +100,12 @@ def get_bounds(entz_in: str, parameters):
     return bounds
 
 
-# The quantity_mean and quantity_variance values used for
+# filepath to folder containing an Ensemble Time Series (entz) format dataset.
+location = "../entz_example_dataset"
+
+# List containing dictionaries with information needed to make SensitivityInput objects.
 quantities_of_interest = [{"name": "inc_case", "mean": "inc_case_mean", "variance": "inc_case_var"},
                           {"name": "age_7_H", "mean": "age_7_H_mean", "variance": "age_7_H_var"}]
-location = "../entz_example_dataset"
 
 df = make_dataframe(location, quantities_of_interest)
 parameters, bounds = get_parameters_and_bounds(location)
@@ -118,4 +120,4 @@ for quantity in quantities_of_interest:
     with open(quantity["name"] + "_input.json", "r") as read_file:
         x = json.load(read_file, object_hook=lambda d: SensitivityInput(**d))
 
-print(x.df())
+print(" SensitivityInput objects created.")
