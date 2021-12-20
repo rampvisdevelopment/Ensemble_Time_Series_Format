@@ -10,7 +10,7 @@ It is intended as a format for datasets of input-output data, of the type used t
 
 The **En**samble **t**ime **s**eries format may be abbreviated as ents.
 
-### Ensemble Time Series Format dataset adhere to the following:
+### Ensemble Time Series Format datasets adhere to the following:
 
 1. Each dataset contains the files: 
    
@@ -91,13 +91,13 @@ week,baz_mean,baz_variance,qux
 
 **Example datadset**
 
-An larger example with real data can be found [here]( ).
+An larger example with real data can be found [here](entz_example_dataset).
 
 ## Parsers
 
 **Sandu**
 
-[Here]() is a parser to create **sandu sensitivty input objects**, for use with any of [sandu's](https://github.com/ErikRZH/sandu) functionality. 
+[Here](parsers/entz_to_sandu_sensitivty_input_example.py) is a parser to create **sandu sensitivty input objects**, for use with any of [sandu's](https://github.com/ErikRZH/sandu) functionality. 
 
 #### Advantages
 
