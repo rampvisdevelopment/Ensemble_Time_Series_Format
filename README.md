@@ -1,4 +1,4 @@
-# Ensemble Time Series Format (entz)
+# Ensemble Time Series Format (ents)
 
 ![alt text](images/illustration.png)
 
@@ -8,7 +8,7 @@
 
 It is intended as a format for datasets of input-output data, of the type used to study a model or process generating time series outputs.  It is a data structure allowing for, for example, **sensitivity analysis** of epidemiological models.
 
-The **En**samble **t**ime **s**eries format may be abbreviated as entz (with z to reduce mix up with Tolkien inspired names).
+The **En**samble **t**ime **s**eries format may be abbreviated as ents.
 
 ### Ensemble Time Series Format dataset adhere to the following:
 
