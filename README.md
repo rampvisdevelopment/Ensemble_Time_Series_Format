@@ -101,4 +101,4 @@ An larger example with real data can be found [here](entz_example_dataset).
 
 #### Advantages
 
-The format is *Human readable* and *widely compatible* due to containg data in the comma separated values format (CSV). It is therefore a possible data format or data structure for sensitivty analysis data.
+The format is *Human readable* and *widely compatible* due to containing data in the comma separated values format (CSV). It is therefore a possible data format or data structure for sensitivty analysis data.
