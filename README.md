@@ -91,13 +91,13 @@ week,baz_mean,baz_variance,qux
 
 **Example datadset**
 
-An larger example with real data can be found [here](entz_example_dataset).
+An larger example with real data can be found [here](ents_example_dataset).
 
 ## Parsers
 
 **Sandu**
 
-[Here](parsers/entz_to_sandu_sensitivty_input_example.py) is a parser to create **sandu sensitivty input objects**, for use with any of [sandu's](https://github.com/ErikRZH/sandu) functionality. 
+[Here](parsers/ents_to_sandu_sensitivty_input_example.py) is a parser to create **sandu sensitivty input objects**, for use with any of [sandu's](https://github.com/ErikRZH/sandu) functionality. 
 
 #### Advantages
 
