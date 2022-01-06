@@ -8,9 +8,9 @@
 
 It is intended as a format for datasets of input-output data, of the type used to study a model or process generating time series outputs.  It is a data structure allowing for, for example, **sensitivity analysis** of epidemiological models.
 
-The **En**samble **t**ime **s**eries format may be abbreviated as ents.
+The **en**samble **t**ime **s**eries format may be abbreviated as **ents**.
 
-### Ensemble Time Series Format datasets adhere to the following:
+### Ensemble time series format datasets adhere to the following:
 
 1. Each dataset contains the files: 
    
@@ -22,11 +22,11 @@ The **En**samble **t**ime **s**eries format may be abbreviated as ents.
    
    iv. `output_metadata.csv` 
 
-2. `parameters.csv` contains an `index` field with a unique integers for matching parameters and outputs.
+2. `parameters.csv` contains an `index` field with unique integers `i` for matching parameters and outputs.
 
-3. `parameters_metadata.csv` contains the fields: `parameter`: name of the parameter matching `parameters.csv`,`description`: plain text description, `unit`.
+3. `parameters_metadata.csv` contains the fields: `parameter`: name of the parameter in `parameters.csv`,`description`: plain text description, `unit`: unit of the parameter.
 
-4. `output_metadata.csv` contains the fields: `output`: name of the parameter matching `parameters.csv`,`description`: plain text description, `unit`.
+4. `output_metadata.csv` contains the fields: `output`: name of the parameter in `parameters.csv`,`description`: plain text description, `unit`: unit of the output.
 
 5. `output_metadata.csv` contains **1** output with the description `time_unit`.
 
@@ -34,7 +34,7 @@ The **En**samble **t**ime **s**eries format may be abbreviated as ents.
 
 ### Example
 
-For a model with parameters `foo` and `bar`, evaluted three times `parameters.csv` and `parameters_metadata.csv` are:
+For a model with parameters `foo` and `bar`, evaluted at three different parameters `parameters.csv` and `parameters_metadata.csv` are:
 
 parameters.csv
 
@@ -97,7 +97,7 @@ An larger example with real data can be found [here](ents_example_dataset).
 
 **Sandu**
 
-[Here](parsers/ents_to_sandu_sensitivty_input_example.py) is a parser to create **sandu sensitivty input objects**, for use with any of [sandu's](https://github.com/ErikRZH/sandu) functionality. 
+[Here](parsers/ents_to_sandu_sensitivty_input_example.py) is an example parser to create **sandu sensitivty input objects**, for use with any of [sandu's](https://github.com/ErikRZH/sandu) functionality. 
 
 #### Advantages
 
